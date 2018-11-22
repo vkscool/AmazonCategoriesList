@@ -18,8 +18,8 @@ import org.json.JSONObject;
 
 public class AmazonGetAllCategory {
 	
-	private static final String ACCESS_ID = "AKIAI7ZAR46RLH3KXPNQ";
-	private static final String SECRET_KEY = "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";
+	private static final String ACCESS_ID = "ACCESSID";
+	private static final String SECRET_KEY = "SecretKey";
 	private static String CHILD_CAT_URL = "https://browsenodes.commercedna.com/amazon.in/browseNodeLookup/<objectId>.json?awsId="+ACCESS_ID+"&awsSecret="+SECRET_KEY;
 	private static Executor executor;
 	private static Executor executor2;
